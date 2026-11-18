@@ -4,10 +4,18 @@ st.markdown("""
 <style>
 .stApp {
     background-color: #f4f7fb;
+    color: #222222;
+}
+
+.stApp h1, .stApp h2, .stApp h3 {
+    color: #222222 !important;
+}
+
+.stApp p, .stApp label, .stApp span {
+    color: #333333;
 }
 </style>
 """, unsafe_allow_html=True)
-
 st.set_page_config(
     page_title="Student Performance Dashboard",
     page_icon="📊",
